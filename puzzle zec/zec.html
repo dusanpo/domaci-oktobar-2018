@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: aqua;
+        }
+
+        #okvir {
+            width: 400px;
+            margin: auto;
+        }
+
+        #okvir div {
+            outline: dashed red 2px;
+            width: 100px;
+            height: 65px;
+            float: left;
+        }
+
+        #okvir img {
+            width: 100px;
+        }
+
+        #zec {
+            width: 450px;
+            display: block;
+            margin: 30px auto;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+    <div id="okvir"></div>
+    <img src="zec/a.jpg" alt="Zec" id='zec'>
+
+    <script>
+        var ispis = '';
+        var i;
+        var okvir = document.getElementById('okvir');
+        for (i = 1; i < 20; i++) {
+            ispis += "<div id='polje" + i + "'><img src ='zec/" + i + ".jpg' alt='" + i + "'></div>";
+
+        }
+        ispis += "<div id='polje20'></div>";
+        okvir.innerHTML = ispis;
+
+
+        okvir.addEventListener('click', function (e) {
+            var kliknuto = Number(e.target.alt);
+            if (kliknuto > 0) {
+                var prazno_polje;
+                for (i = 1; i <= 20; i++) {
+
+                    if (!document.querySelector('#polje' + i + ' img')) {
+
+                        prazno_polje = i;
+                    }
+                }
+                console.log('kliknuto na', kliknuto, 'prazno', prazno_polje);
+                var razlika = prazno_polje - kliknuto;
+                if (razlika < 0) {
+                    razlika = -1 * razlika;
+                }
+                console.log(razlika);
+                if ((razlika == 1 || razlika == 4)
+
+
+                ) {
+                    document.getElementById('polje' + prazno_polje).innerHTML =
+                        document.getElementById('polje' + kliknuto).innerHTML;
+
+                    document.getElementById('polje' + kliknuto).innerHTML = '';
+                    document.querySelector('#polje' + prazno_polje + ' img').alt = prazno_polje;
+                }
+            }
+
+        });
+
+    </script>
+</body>
+
+</html>
