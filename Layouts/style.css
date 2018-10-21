@@ -1,0 +1,212 @@
+#container1 header{float:left;width:100%;height:50px;}
+#container1 .first,
+#container1 .second,
+#container1 .third{float:left;width:33.33%;height:98px;}
+#container1 .fourth, 
+#container1 .fifth,
+#container1 .sixth,
+#container1 footer{float:left;width:100%;height:50px;}
+
+#container2 .first,
+#container2 .second,
+#container2 .third,
+#container2 .fourth, 
+#container2 .fifth,
+#container2 .sixth{float:left; width:33.33%; height:148px;}
+#container2 footer{float:left;width:100%;height:50px;}
+
+#container3 header{float:left;width:100%;height:50px;}
+#container3 .first,
+#container3 .second,
+#container3 .third{float:left;width:33.33%;height:80px;}
+#container3 .fourth,
+#container3 .fifth{float:left;width:50%;height:80px;}
+#container3 .sixth{float:left;width:100%;height:80px;}
+#container3 footer{float:left;width:100%;height:50px;}
+
+#container4 header{float:left;width:100%;height:50px;}
+#container4 .first,
+#container4 .second,
+#container4 .third,
+#container4 .fourth,
+#container4 .fifth,
+#container4 .sixth{float:left;width:16.66%;height:100px;}
+#container4 footer{float:left;width:100%;height:50px;}
+#container4 .second{height:130px;}
+#container4 .sixth{height:110px;}
+
+#container5 header{float:left;width:100%;height:50px;}
+#container5 .first,
+#container5 .second,
+#container5 .third,
+#container5 .fourth,
+#container5 .fifth,
+#container5 .sixth{float:left;width:16.66%;height:215px;}
+#container5 footer{float:left;width:100%;height:50px;}
+
+#container6{position: relative;}
+#container6 main{position: relative;width:66.66%;margin:auto;top:10px;border:none}
+#container6 main>*{width:99.67px;height:210px;}
+#container6 .first{float:left;}
+#container6 .second{float:left;}
+#container6 .third{float:right;}
+
+#container6 .fourth{float:right;}
+#container6 .fifth{position: absolute;right:-100px;top:0px;}
+#container6 .sixth{position: absolute;left:-100px;}
+#container6 header{position:relative;height:50px;top:270px;}
+#container6 footer{position: absolute;top:0px;height:50px;width:597px;}
+
+#container7 header{float:left;width:100%;height:50px;}
+#container7 .first,
+#container7 .second,
+#container7 .third,
+#container7 .fourth{float:left;width:50%;height:60px;}
+#container7 .fifth,
+#container7 .sixth{float:left;width:100%;height:60px;}
+#container7 footer{float:left;width:100%;height:50px;}
+
+#container8 header{float:left;width:100%;height:50px;}
+#container8 .first,
+#container8 .second,
+#container8 .third,
+#container8 .fourth{float:left;width:25%;height:80px;}
+#container8 .fifth,
+#container8 .sixth{float:left;width:50%;height:80px;}
+#container8 footer{float:left;width:100%;height:50px;}
+
+#container9 header{float:left;width:100%;height:50px;}
+#container9 .first,
+#container9 .second,
+#container9 .third{float:left;width:33.33%;height:90px;}
+#container9 .fourth{float:left;width:50%;height:90px;}
+#container9 .fifth{float:left;width:25%;height:90px;}
+#container9 .sixth{float:right;width:25%;height:90px;}
+#container9 footer{float:left;width:100%;height:50px;}
+
+#container10 header{float:left;width:100%;height:50px;}
+#container10 .first,
+#container10 .second,
+#container10 .third{float:left;width:33.33%;height:90px;}
+#container10 .fourth{float:left;width:25%;height:90px;}
+#container10 .fifth{float:left;width:50%;height:90px;}
+#container10 .sixth{float:right;width:25%;height:90px;}
+#container10 footer{float:left;width:100%;height:50px;}
+
+#container11 header{float:left;width:100%;height:50px;}
+#container11 .first{float:left;width:20%;height:80px;}
+#container11 .second{float:left;width:60%;height:80px;}
+#container11 .third{float:right;width:20%;height:80px;}
+#container11 .fourth{float:left;width:35%;height:80px;}
+#container11 .fifth{float:left;width:30%;height:80px;}
+#container11 .sixth{float:right;width:35%;height:80px;}
+#container11 footer{float:left;width:100%;height:50px;}
+
+#container12 header{float:left;width:100%;height:50px;}
+#container12 .first{float:left;width:30%;height:80px;}
+#container12 .second{float:left;width:70%;height:80px;}
+#container12 .third{float:left;width:70%;height:80px;}
+#container12 .fourth{float:left;width:30%;height:80px;}
+#container12 .fifth{float:left;width:30%;height:80px;}
+#container12 .sixth{float:left;width:70%;height:80px;}
+#container12 footer{float:left;width:100%;height:50px;}
+
+#container13 header{float:left;width:100%;height:50px;}
+#container13 .first{float:left;width:80%;height:50px;}
+#container13 .second{float:left;width:80%;height:50px;}
+#container13 .third{float:right;width:80%;height:50px;}
+#container13 .fourth{float:right;width:80%;height:50px;}
+#container13 .fifth,
+#container13 .sixth{float:left;width:50%;height:50px;}
+#container13 footer{float:left;width:100%;height:50px;}
+
+#container14{position:relative;}
+#container14 header{float:left;width:100%;height:50px;}
+#container14 .first{float:left;width:32%;height:25px;}
+#container14 .second{width:46%;height:25px;margin:48px 193px;}
+#container14 .third{width:31%;height:25px;top:75px;position:absolute;}
+#container14 .fourth{right:139px;width:45%;height:25px;top:75px;position:absolute;}
+#container14 .fifth{width:39%;height:25px;top:100px;position:absolute;}
+#container14 .sixth{right:67px;width:49%;height:25px;top:100px;position:absolute;}
+#container14 footer{float:left;width:100%;height:50px;}
+
+#container15{position:relative;}
+#container15 header{float:left;width:50%;height:50px;}
+#container15 footer{position:absolute;right:-0px;top:0px;width:300px;height:50px;}
+#container15 .first{float:left;width:200px;height:50px;position:absolute;top:50px;}
+#container15 .second{float:left;width:200px;height:50px;position:absolute;top:100px;}
+#container15 .third{float:left;width:200px;height:50px;position:absolute;top:150px;}
+#container15 .fourth{right:97px;width:300px;height:50px;position:absolute;top:150px;}
+#container15 .fifth{float:left;width:50%;height:50px;position:absolute;top:200px;}
+#container15 .sixth{float:left;width:596px;height:50px;position:absolute;top:250px;}
+
+#container16 header{float:left;width:100%;height:50px;}
+#container16 .first,
+#container16 .second,
+#container16 .third,
+#container16 .fourth,
+#container16 .fifth{float:left;width:20%;height:120px;}
+#container16 .sixth{float:left;width:100%;height:120px;}
+#container16 footer{float:left;width:100%;height:50px;}
+
+#container17{position:relative;}
+#container17 header{float:left;width:100%;height:50px;}
+#container17 .first{float:left;width:30%;height:50px;position:absolute;top:50px;}
+#container17 .second{float:left;width:30%;height:50px;position:absolute;top:100px;}
+#container17 .third{right:238px;width:30%;height:50px;position:absolute;top:100px;}
+#container17 .fourth{right:119px;width:50%;height:50px;position:absolute;top:150px;}
+#container17 .fifth{float:left;width:50%;height:50px;position:absolute;top:200px;}
+#container17 .sixth{float:left;width:579px;height:50px;position:absolute;top:250px;}
+#container17 footer{float:left;width:100%;height:50px;position:absolute;top:300px;}
+
+#container18 header{float:left;width:100%;height:50px;}
+#container18 .first{float:left;width:100%;height:80px;}
+#container18 .second,
+#container18 .third,
+#container18 .fourth{float:left;width:33.33%;height:80px;}
+#container18 .fifth{float:left;width:100%;height:80px;}
+#container18 .sixth{float:left;width:100%;height:80px;}
+#container18 footer{float:left;width:100%;height:50px;}
+
+#container19{position:relative;}
+#container19 header{float:left;width:100%;height:50px;}
+#container19 .second{float:left;width:33.33%;height:70px;position:absolute;top:50px;}
+#container19 .third{right:199px;width:33.33%;height:70px;position:absolute;top:50px;}
+#container19 .first{right:1px;width:33.33%;height:70px;position:absolute;top:50px;}
+#container19 .fifth{float:left;width:50%;height:70px;position:absolute;top:120px;}
+#container19 .fourth{right:1px;width:50%;height:70px;position:absolute;top:120px;}
+#container19 .sixth{float:left;width:595px;height:70px;position:absolute;top:190px;}
+#container19 footer{float:left;width:597px;height:50px;position:absolute;top:260px;}
+
+#container20{position:relative;}
+
+#container20 .first{float:left;width:33.33%;height:70px;position:absolute;}
+#container20 .second{right:199px;width:33.33%;height:70px;position:absolute;}
+#container20 .third{right:1px;width:33.33%;height:70px;position:absolute;}
+#container20 .fourth{float:left;width:50%;height:70px;position:absolute;top:70px;}
+#container20 .fifth{right:1px;width:50%;height:70px;position:absolute;top:70px;}
+#container20 .sixth{float:left;width:595px;height:70px;position:absolute;top:140px;}
+#container20 footer{float:left;width:50%;height:50px;position:absolute;top:210px;}
+#container20 header{right:1px;width:50%;height:50px;position:absolute;top:210px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
