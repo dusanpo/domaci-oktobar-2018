@@ -1,0 +1,106 @@
+
+    .jedan{
+      border:1px solid gray;  
+    position:absolute;
+    right:160px;
+    margin:auto;
+    margin-top:-270px;
+    width:1342px;
+    height: 250px; }
+    span{display:inline-block;width:100px;height:25px;background:lightskyblue;text-align:center;}
+    body{background-image:url("doodles.png");
+         
+         }
+
+    .dva {border: 1px solid gray;
+    position:absolute;
+    margin-top: 1px;
+    width: 190px;
+    height: 650px;
+    left:160px;
+    }
+    
+    .tri{border: 1px solid gray;
+    position:relative;
+    margin-top:280px;
+    margin-left: 360px;
+    height: 1030px;
+    width: 925px; }
+    .vl {
+        border-left: 3px solid lightskyblue;
+        height: 150px;
+        position: absolute;
+        left: 5%;
+        margin-left: -3px;
+        top: 270px;
+    }
+    .vl1{
+        border-left: 3px solid lightskyblue;
+        height: 150px;
+        position: absolute;
+        left: 95%;
+        margin-left: -3px;
+        top: 270px;
+    }
+     th, td {
+        border: 1px solid gray;
+    }
+    .button{background-color:lightskyblue;
+        padding: 10px 60px;
+        color:white;
+        font-size: 10px;
+        
+    }
+    
+    .četiri{border:1px solid gray;
+    position:absolute;
+    margin-top:-1032px;
+    height: 650px;
+    width: 190px;
+    right:160px;}
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    body{background-image:url("doodles.png");}
+
+    
+    
+     
+    .pet{border: 1px;
+        position:absolute;
+        background:lightskyblue;
+        color:white;
+        right:160px;
+        margin-top: 20px;
+        width: 1342px;
+        height: 200px;}
+        .vl2 {
+            border-left: 1px solid white;
+            height: 180px;
+            position: absolute;
+            left: 40%;
+            margin-left: -3px;
+            top: 10px;
+        }
+        .vl3 {
+            border-left: 1px solid white;
+            height: 180px;
+            position: absolute;
+            left: 60%;
+            margin-left: -3px;
+            top: 10px;
+        }
+
+       
+        
+        .šest{border: 1px ;
+        text-align:center;
+        position:absolute;
+        top:1530px;
+        background:#9370DB;
+        right:160px;
+        width: 1342px;
+        height: 20px;}
