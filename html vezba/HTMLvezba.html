@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="login.php" method="post">
+        <fieldset style="width:0px">
+
+            <legend>Osnovni podaci</legend>
+            <p>Ime
+                <input type="text" name="firstname"></p>
+            <p>Lozinka
+                <input type="password" name="pass" id="pass"></p>
+            <p>Rođendan
+                <input type="text" name="date" placeholder="mm/dd/yyyy"></p>
+        </fieldset>
+    </form>
+
+    <fieldset style="width:0px">
+        <legend>Anketa</legend>
+        Omiljena boja
+        <select name="Omiljena boja">
+            <option value="izaberi boju">Izaberi boju</option>
+            <option value="plava boja">Plava boja</option>
+            <option value="crvena boja">Crvena boja</option>
+        </select><br><br>
+
+        <p>Slika
+            <input type="button" value="browse...">No file selected</p><br><br>
+        Jedan
+        <input type="text" name="1" id="1" placeholder="jedan"><br><br>
+        Dva
+        <input type="text" name="2" id="2" placeholder="dva"><br><br>
+        Tri
+        <input type="text" name="3" id="3" placeholder="tri"><br><br>
+
+        Bio
+        <textarea name="bio" id="bio" cols="21" rows="3"></textarea>
+    </fieldset>
+    <input type="submit" value="Pošalji">
+
+    <div style="position: absolute; top:30px; left:230px; width:200px; height:20px"><strong>Ovo</strong> je jako važno!</div>
+    <div style="position: absolute; top:50px; left:230px; width:200px; height:20px"><em>Ovo je bitno naglasiti!</em></div>
+    <div style="position: absolute; top:55px; left:230px; width:200px; height:20px">
+        <h4>Neki jako bitan tekst</h4>
+        <hr>
+    </div>
+
+    <div style="position: absolute; top:130px; left:230px; width:200px; height:20px">1.a</div>
+    <div style="position: absolute; top:150px; left:230px; width:200px; height:20px">2.&lt;div&gt;</div>
+    <div style="position: absolute; top:170px; left:230px; width:200px; height:20px">3.&quot;</div>
+    <div style="position: absolute; top:190px; left:230px; width:200px; height:20px">4.<span>a</span>
+        <hr>
+    </div>
+    <div style="position: absolute; top:230px; left:230px; width:200px; height:20px">i.a&nbsp; b</div>
+    <div style="position: absolute; top:250px; left:230px; width:200px; height:20px">ii.a b</div>
+    <div style="position: absolute; top:270px; left:230px; width:200px; height:20px">iii.&copy;</div>
+    <div style="position: absolute; top:290px; left:230px; width:200px; height:20px">iv.<span>a</span>
+        <hr>
+    </div>
+
+
+    <div style="position: absolute; top:330px; left:200px; width:200px; height:20px">
+        <ul>
+            <li>a</li>
+            <li>a</li>
+            <li>a</li>
+            <li>&euro;</li>
+        </ul>
+
+    </div>
+    <div style="position: absolute; top:450px; left:230px; width:200px; height:20px">jedan</div>
+    <div style="position: absolute; top:470px; left:260px; width:200px; height:20px">dva</div>
+    <div style="position: absolute; top:490px; left:230px; width:200px; height:20px">tri</div>
+    <div style="position: absolute; top:510px; left:260px; width:200px; height:20px">cetiri</div>
+    <div style="position: absolute; top:550px; left:200px; width:200px; height:20px">
+        <ul>
+            <li>a</li>
+            <li>a</li>
+            <li>a</li>
+            <ol>
+                <li>b2</li>
+                <li>b</li>
+                <li>h2o</li>
+            </ol>
+            <li>a</li>
+        </ul>
+    </div>
+    <div style="position: absolute; top:220px; left:450px; width:200px; height:20px">
+        <table border="1">
+
+            <tr>
+                <td>a</td>
+                <td>b</td>
+            </tr>
+            <tr>
+                <td>c</td>
+                <td>d</td>
+            </tr>
+            <tr>
+                <td>e</td>
+                <td>f</td>
+            </tr>
+        </table>
+
+
+    </div>
+    <div style="position: absolute; top:220px; left:500px; width:200px; height:20px">
+        <table border="1">
+            <tr>
+                <td>a</td>
+                <td>b</td>
+
+            </tr>
+            <tr>
+                <td colspan="2">cd</td>
+            </tr>
+            <tr>
+                <td>e</td>
+                <td>f</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div style="position: absolute; top:220px; left:550px; width:200px; height:20px">
+        <table border="1">
+            <tr>
+                <td rowspan="3">a</td>
+                <td>b</td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <td rowspan="2">d</td>
+                <td>e</td>
+            </tr>
+            <tr>
+
+                <td>f</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="position: absolute; top:205px; left:620px; width:200px; height:20px">
+        Naslov <br>tabele
+        <table border="1">
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>a</td>
+                <td>a</td>
+            </tr>
+        </table>
+    </div>
+
+    <div style="position: absolute; top:210px; left:680px; width:200px; height:20px">
+        <table>
+            <thead>
+                <tr>
+                    <th>a</th>
+                    <th>a</th>
+                    <th>a</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>b</td>
+                    <td>b</td>
+                    <td>b</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b</td>
+                    <td>b</td>
+                </tr>
+                <tr>
+                    <td>b</td>
+                    <td>b</td>
+                    <td>b</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div style="position: absolute; top:350px; left:450px; width:200px; height:20px"><video width="320" height="240"
+            controls>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
